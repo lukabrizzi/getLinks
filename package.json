@@ -1,0 +1,14 @@
+{
+  "name": "Visa",
+  "version": "1.0.0",
+  "description": "Scraper to overtake the visa's turn",
+  "main": "index.js",
+  "author": "Luka Brizzi",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.7.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
