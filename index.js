@@ -46,8 +46,9 @@ const fs = require("fs");
         for (let i = 0; i < pdfs.length; i++) {
           links.push(pdfs[i].href);
         }
-        return { title: title, link: links };
+        return { title: title, pdfLinks: links };
       });
+      linksWithTitle["mainLink"] = titleLinks[i];
       totalPdsLinks.push({ ...linksWithTitle });
     }
   }
